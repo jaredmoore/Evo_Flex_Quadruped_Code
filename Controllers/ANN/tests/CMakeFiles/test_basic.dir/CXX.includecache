@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/JMoore/Dropbox/Code/Ubuntu/Code/ann/tests/../src/ann.h
+vector
+-
+
+/Users/JMoore/Dropbox/Code/Ubuntu/Code/ann/tests/test_basic.cpp
+cstdio
+-
+cstdlib
+-
+ann.h
+/Users/JMoore/Dropbox/Code/Ubuntu/Code/ann/tests/ann.h
+iostream
+-
+

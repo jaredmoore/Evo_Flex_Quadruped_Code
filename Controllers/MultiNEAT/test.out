@@ -1,0 +1,500 @@
+   34  robo10
+   35  clear
+   36  robo10
+   37  clear
+   38  robo10
+   39  robo10
+   40  robo10
+   41  clear
+   42  robo10
+   43  clear
+   44  robo10
+   45  clear
+   46  robo10
+   47  clear
+   48  robo10
+   49  clear
+   50  robo10
+   51  ipn32
+   52  purge
+   53  cd ~/Dropbox/Code/pyserver/
+   54  ls
+   55  cd web_gl_renderer/
+   56  git commit visualizer/skeleton.js visualizer/object_creator.js visualizer.html -m "Separated the object creation from the skeleton as part of a refactoring.  Also made the stepsize dynamically calculated and added the ability to change the color of the entire robot at once." && git push
+   57  git add visualizer/object_creator.js 
+   58  git commit visualizer/skeleton.js visualizer/object_creator.js visualizer.html -m "Separated the object creation from the skeleton as part of a refactoring.  Also made the stepsize dynamically calculated and added the ability to change the color of the entire robot at once." && git push
+   59  git pull
+   60  git push
+   61  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+   62  git commit worm_simulation.py -m "Changed mass of robot and the spread of the three balls." && git push
+   63  pyweb
+   64  purge
+   65  cd Desktop/
+   66  srobo10
+   67  clear
+   68  robo10
+   69  clear
+   70  robo10
+   71  python --version
+   72  clear
+   73  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   74  brew tap osrf/simulation
+   75  brew install gazebo5 --with-bullet --with-simbody --HEAD
+   76  brew install gazebo5 --with-bullet --with-simbody
+   77  brew update
+   78  brew doctor
+   79  port -h
+   80  port help
+   81  port list
+   82  clear
+   83  brew install gazebo5 --with-bullet --with-simbody
+   84  sudo xcodebuild --license
+   85  xcode
+   86  xcodebuild
+   87  sudo xcodebuild
+   88  clear
+   89  brew install gazebo5 --with-bullet --with-simbody
+   90  brew link boost
+   91  brew link --overwrite boost
+   92  sudo brew link --overwrite boost
+   93  sudo brew link --overwrite boost
+   94  brew link --overwrite boost
+   95  sudo chown -R $(whoami) /usr/local/include/boost/accumulators/
+   96  brew link --overwrite boost
+   97  sudo chown -R $(whoami) /usr/local/include/boost/
+   98  brew link --overwrite boost
+   99  brew install gazebo5 --with-bullet --with-simbody
+  100  clear
+  101  gazebo
+  102  clear
+  103  gazebo worlds/pioneer2dx.world
+  104  clear
+  105  python
+  106  python
+  107  clear
+  108  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+  109  ls
+  110  python ann_worm.py --aquatic --debug_runtime --eval_time=10 --log_frames --run_num=99
+  111  python ann_worm.py --aquatic --debug_runtime --eval_time=10 --log_frames --run_num=99
+  112  ls /usr/local/lib/libboost_
+  113  ls -la /usr/local/lib/
+  114  clear
+  115  cd ../../
+  116  ls
+  117  cd Controllers/MultiNEAT/
+  118  ls
+  119  make clean
+  120  cd build
+  121  ls
+  122  make clean
+  123  cd ../
+  124  ls
+  125  cd INSTALL
+  126  ls
+  127  python setup.py 
+  128  python setup.py --help
+  129  python setup.py build
+  130  ls
+  131  vi setup.py 
+  132  vi INSTALL
+  133  vi DEPENDS
+  134  vi __init__.py
+  135  vi setup.py 
+  136  vi ~/.profile
+  137  ls /Users/JMoore/bin
+  138  ls -la /usr/local/lib/libboost_*
+  139  ls /usr/local/Cellar/boost/
+  140  ls /usr/local/Cellar/boost/1.57.0/
+  141  ls /usr/local/Cellar/boost/1.57.0/lib/
+  142  ls /usr/local/lib/lib*python*
+  143  ls -la /usr/local/lib/lib*python*
+  144  ln -s /usr/local/lib/libboost_python.a /usr/local/Cellar/boost/1.57.0/lib/libboost_python.a
+  145  ln -s /usr/local/lib/libboost_python.dylib /usr/local/Cellar/boost/1.57.0/lib/libboost_python.dylib
+  146  python setup.py build
+  147  echo $PATH
+  148  ls /opt/local/bin/
+  149  ls /opt/local/sbin
+  150  ls /usr/local/bin
+  151  ls /usr/local/lib/libboost_*
+  152  ls /usr/local/Cellar/boost/1.57.0/include
+  153  ls /usr/local/Cellar/boost/1.57.0/include/boost/
+  154  ls /usr/local/include/boost/
+  155  ln -s /usr/local/include/boost/python /usr/local/Cellar/boost/1.57.0/include/boost/python
+  156  ln -s /usr/local/include/boost/python.hpp /usr/local/Cellar/boost/1.57.0/include/boost/python.hpp
+  157  python setup.py build
+  158  echo $PATH
+  159  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+  160  python ann_worm.py --debug_runtime --eval_time=10 --run_num=99 --aquatic --log_frames
+  161  vi ~/.profile
+  162  ipn32
+  163  echo $PATH
+  164  cd Desktop/
+  165  mkdir test_find
+  166  cd test_find
+  167  ls
+  168  vi test_make.txt
+  169  cmake test_make.txt 
+  170  cmake --help
+  171  cmake test_make.txt ./
+  172  mv test_make.txt CMakeLists.txt
+  173  cmake ./
+  174  ls /usr/local/include/
+  175  echo ${PATH}
+  176  cmake ./
+  177  ls
+  178  g++ test.cc 
+  179  cd Desktop/test_find/
+  180  vi test.cpp
+  181  g++ test.cpp 
+  182  ls
+  183  cmake CMakeLists.txt ./
+  184  ls
+  185  cmake install
+  186  cmake build
+  187  clear
+  188  vi CMakeLists.txt 
+  189  ls
+  190  vi test.cpp
+  191  cmake CMakeLists.txt ./
+  192  mv test.cpp test.cc
+  193  cmake CMakeLists.txt ./
+  194  vi test.cc
+  195  vi CMakeLists.txt 
+  196  cmake CMakeLists.txt ./
+  197  ls
+  198  cmake install
+  199  ls ~/.*
+  200  clear
+  201  ls ~/.*
+  202  ls ~/
+  203  clear
+  204  cd ~/
+  205  ls
+  206  cd boost_1_53_0/
+  207  ls
+  208  cd ../
+  209  ls
+  210  cd Desktop/test_find/
+  211  ls
+  212  g++ test.cc
+  213  g++ -I/usr/local/include/ test.cc
+  214  find /usr/local/ls  -name pyconfig.h
+  215  find pyconfig.h
+  216  find ~/ pyconfig.h
+  217  find ~/ -name pyconfig.h
+  218  clear
+  219  ls /usr/local/bin/python2.7/
+  220  ls /usr/local/bin/python2.7-config 
+  221  vi /usr/local/bin/python2.7-config 
+  222  vi /usr/bin/py2.7
+  223  vi /usr/bin/python2.7
+  224  vi /usr/bin/python2.7-config 
+  225  ls /Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/
+  226  vi ~/.profile
+  227  clear
+  228  g++ -I/usr/local/include/ test.cc
+  229  g++ -I/usr/local/include/ -I/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/ test.cc
+  230  cd ~/boost_1_57_0/
+  231  ls
+  232  ./bootstrap.sh 
+  233  ./b2 install
+  234  clear
+  235  sudo ./b2 install
+  236  clear
+  237  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  238  ls
+  239  python setup.py install
+  240  python setup.py build
+  241  echo $PATH
+  242  vi ~/.profile
+  243  clear
+  244  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  245  python setup.py build
+  246  echo $PATH
+  247  vi python
+  248  vi setup.py 
+  249  ls
+  250  ls lib
+  251  vi lib/PythonBindings.h
+  252  clear
+  253  echo $PATH
+  254  ls /usr/bin
+  255  ls /usr/bin/*boost*
+  256  ls /usr/local/bin
+  257  echo $PYTHONPATH
+  258  ls /usr/local/lib/python2.7/site-packages/
+  259  ls /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/
+  260  ls $PKGCONFIGPATH
+  261  echo $PKGCONFIGPATH
+  262  python setup.py build
+  263  find /usr/local -name python.hpp
+  264  brew install boost-python
+  265  brew link --overwrite boost-python
+  266  python setup.py build
+  267  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  268  python setup.py build
+  269  python setup.py build
+  270  vi setup.py 
+  271  pip upgrade distutils
+  272  pip --upgrade distutils
+  273  pip freeze
+  274  cd /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/setuptools/command
+  275  python easy_install.py virtualenv
+  276  brew update
+  277  brew upgrade
+  278  brew doctor
+  279  ls /Users/JMoore/bin/pkg-config
+  280  vi /Users/JMoore/bin/pkg-config
+  281  clear
+  282  brew install python
+  283  brew unlink python
+  284  brew link --overwrite python
+  285  pip freeze
+  286  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  287  python setup.py build
+  288  pip freeze
+  289  python --version
+  290  vi ~/.profile
+  291  pip freeze
+  292  python --version
+  293  ls /Library/Frameworks/Python.framework/Versions/Current
+  294  ls
+  295  ls /Library/Frameworks/Python.framework/Versions/Current
+  296  /Library/Frameworks/Python.framework/Versions/Current/bin/python --version
+  297  ls /usr/local/bin/python --version
+  298  ls /usr/local/bin/python2.7 --version
+  299  ls /usr/local/bin/python
+  300  ls /usr/local/bin/python
+  301  /usr/local/bin/python --version
+  302  vi ~/.profile
+  303  python --version
+  304  python --version
+  305  pip freeze
+  306  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  307  python setup.py build
+  308  ls
+  309  make
+  310  python setup.py install
+  311  sudo python setup.py install
+  312  ls
+  313  cd build
+  314  ls
+  315  pip freeze
+  316  clear
+  317  cd ../../
+  318  ls
+  319  cd ../Experiments/ANN_Worm_Search/
+  320  python ann_worm.py --debug_runtime --eval_time=10 --aquatic --run_num=99 --log_frames
+  321  cd ../../Controllers/MultiNEAT/
+  322  ls
+  323  python MultiNEAT.py 
+  324  cd build
+  325  ls
+  326  rm -rf ./*
+  327  sudo rm -rf ./*
+  328  ls
+  329  cd ../
+  330  python setup.py install --user
+  331  pip freeze
+  332  python --version
+  333  pip --version
+  334  clear
+  335  vi ~/.profile
+  336  clear
+  337  ls
+  338  pip freeze
+  339  clear
+  340  pip freeze
+  341  cd ~/Downloads/
+  342  ls
+  343  cd pip-6.1.1
+  344  ls
+  345  vi README.rst 
+  346  pip install -U pip
+  347  sudo pip install -U pip
+  348  clear
+  349  pip freeze
+  350  clear
+  351  sudo rm -R /System/Library/Frameworks/Python.framework/Versions/2.7
+  352  sudo mv /Library/Frameworks/Python.framework/Versions/2.7 /System/Library/Frameworks/Python.framework/Versions
+  353  sudo chown -R root:wheel /System/Library/Frameworks/Python.framework/Versions/2.7
+  354  sudo rm /System/Library/Frameworks/Python.framework/Versions/Current
+  355  sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7 /System/Library/Frameworks/Python.framework/Versions/Current
+  356  sudo rm /usr/bin/pydoc
+  357  sudo rm /usr/bin/python
+  358  sudo rm /usr/bin/pythonw
+  359  sudo rm /usr/bin/python-config
+  360  sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/bin/pydoc /usr/bin/pydoc
+  361  sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/bin/python /usr/bin/python
+  362  sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw /usr/bin/pythonw
+  363  sudo ln -s /System/Library/Frameworks/Python.framework/Versions/2.7/bin/python-config /usr/bin/python-config
+  364  vi ~/.profile
+  365  clear
+  366  python --version
+  367  vi ~/.profile
+  368  ls /usr/lib/gcc/i686-apple-darwin11/4.2.1/include/
+  369  vi /usr/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h 
+  370  vi /usr/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h 
+  371  g++ --version
+  372  xcode-select -h
+  373  xcode-select -v
+  374  xcode-select
+  375  xcode-select --install
+  376  xcode-select -v
+  377  xcode-select -p
+  378  xcode-select -s
+  379  pip freeze
+  380  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+  381  python ann_worm.py --debug_runtime --eval_time=10 --run_num=99 --aquatic --log_frames
+  382  clear
+  383  python --version
+  384  pip
+  385  pip freeze
+  386  clear
+  387  pip freeze
+  388  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  389  ls
+  390  cd build
+  391  ls
+  392  cd ../
+  393  ls
+  394  cd ../../Experiments/ANN_Worm_Search/
+  395  python ann_worm.py --debug_runtime --eval_time=10 --aquatic --run_num=99 --log_frames
+  396  pip uninstall MultiNEAT
+  397  cd ../../Controllers/MultiNEAT/
+  398  python setup.py build
+  399  sudo python setup.py build
+  400  sudo python setup.py build > test.out
+  401  sudo python setup.py build >> test.out
+  402  sudo python setup.py build &> test.out
+  403  vi test.out 
+  404  sudo python setup.py build &> test.out
+  405  vi test.out 
+  406  python setup.py install
+  407  sudo python setup.py install
+  408  ls build/
+  409  clear
+  410  ls
+  411  vi DEPENDS 
+  412  pip freeze
+  413  pip freeze
+  414  python
+  415  pip freeze
+  416  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+  417  python ann_worm.py --debug_runtime --eval_time=10 --run_num=99 --aquatic --log_frames
+  418  find /usr/local/lib -name *boost_python* -ls
+  419  cd boost_1_57_0/
+  420  ls
+  421  cd b2
+  422  ls
+  423  cd doc
+  424  ls
+  425  cd ./
+  426  cd ../
+  427  ls
+  428  clear
+  429  find ./ -name MAC-OSX.txt
+  430  ls
+  431  ./bootstrap.sh
+  432  ./b2
+  433  ./bootstrap.sh --prefix=/usr/local
+  434  ./b2
+  435  ls
+  436  make clean
+  437  ./b2 --h
+  438  ./b2 -help
+  439  ./b2 -a 
+  440  clear
+  441  cd ~/
+  442  ls
+  443  brew uninstall boost-python
+  444  brew unlink boost-python
+  445  ls
+  446  rm -rf /usr/local/include/boost
+  447  ls /usr/local/lib
+  448  rm -rf /usr/local/lib/libboost_*
+  449  clear
+  450  ls
+  451  rm -rf /usr/local/Cellar/boost
+  452  brew install boost-python
+  453  brew unlink boost-python
+  454  brew link boost-python
+  455  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  456  rm -rf build/*
+  457  sudo rm -rf build/*
+  458  ls
+  459  vi setup.py 
+  460  vi DEPENDS 
+  461  vi INSTALL 
+  462  vi MANIFEST.in 
+  463  vi MultiNEAT.py 
+  464  clear
+  465  python setup.py build
+  466  ls
+  467  ls build
+  468  vi setup.py 
+  469  pip freeze
+  470  python setup.py --version
+  471  pip freeze
+  472  sudo pip install distutils
+  473  clear
+  474  ls
+  475  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  476  ls build/
+  477  sudo python setup.py install
+  478  ls build
+  479  ipn32
+  480  cd ~/
+  481  exit
+  482  cd Dropbox/Code/Ubuntu/Code/Python_ODE_2/Experiments/ANN_Worm_Search/
+  483  python ann_worm.py --debug_runtime
+  484  pip freeze
+  485  cd ~/
+  486  ls
+  487  ipn32
+  488  exit
+  489  clear
+  490  vi ~/.profile
+  491  source ~/virtual_envs/ipython-notebook/bin/activate;
+  492  python --version
+  493  ls
+  494  vi ~/.profile
+  495  cd ~/Dropbox/iPython_Notebooks/;
+  496  vi ~/.profile
+  497  ipython notebook --pylab inline
+  498  exit() exit
+  499  clear
+  500  exit
+  501  brew -v install --with-icu --build-from-source --with-c++11 boost-python
+  502  brew -v uninstall --with-icu --build-from-source --with-c++11 boost-python
+  503  brew -v install --with-icu --build-from-source --with-c++11 boost-python
+  504  brew link boost
+  505  cd ~/Dropbox/Code/Ubuntu/Code/Python_ODE_2/Controllers/MultiNEAT/
+  506  ls
+  507  clear
+  508  python setup.py --h
+  509  python setup.py --help build_ext
+  510  g++ --version
+  511  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build
+  512  sudo rm -rf ./build/*
+  513  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build
+  514  lipo /usr/local/lib/libboost_python.dylib 
+  515  lipo -verify_arch /usr/local/lib/libboost_python.dylib 
+  516  ls /usr/local/lib/libboost_*
+  517  ls -la /usr/local/lib/libboost_*
+  518  ls -la /usr/local/include/boost/
+  519  mv /usr/local/include/boost /usr/local/include/boost_bkp
+  520  ls
+  521  clear
+  522  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build
+  523  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build clean
+  524  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build
+  525  rm -rf ./build/*
+  526  env CFLAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 && python setup.py build
+  527  python setup.py build
+  528  brew uninstall boost_python
+  529  brew uninstall boost-python
+  530  brew unlink boost_python
+  531* brew install boost-python
+  532  vi history
+  533  history > test.out

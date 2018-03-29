@@ -1,0 +1,11 @@
+1) Created the file ann_wrap.py, which also includes imports from cffi_code.py
+    - This wraps the code necessary to load the C interface making a one line call:
+        from cffi_code import *
+      possible in python.  Cleans up the interface with other code.  
+    - Tested this by trying the simple code from cffi_test.py and it works.
+2) Modified cffi_code.py so that it automatically parses the C interface from the ann.h file.
+3) Added the ability to define the weights of connections to ann.h and ann.cpp
+4) Added a few test cases to ensure functionality of the wrapper at the most basic level.
+5) Dumping to string and reloading works.
+
+TODO Next: Start working towards Evolutionary Operator implementation. 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/test_basic.dir/test_basic.cpp.o  -o /Users/JMoore/Dropbox/Code/Ubuntu/Code/ann/bin/test_basic  ../src/libann.dylib 
